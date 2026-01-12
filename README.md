@@ -1,3 +1,7 @@
+
+<video src="https://github.com/YowaiMo-Koustav/FINI/blob/main/InShot_20260112_230647571.mp4" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/YowaiMo-Koustav/FINI/blob/main/InShot_20260112_230757189.mp4" controls="controls" style="max-width: 100%;"></video>
+
 # FINI - Your Minimalist To-Do List
 
 FINI is a beautifully simple to-do list app designed to bring calm and clarity to your day. By focusing on the essentials, FINI helps you manage your tasks without the clutter, reducing stress and boosting your productivity. Stay organized and achieve your goals, one task at a time.
