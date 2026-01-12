@@ -1,35 +1,38 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# FINI - Your Minimalist To-Do List
 
-* [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./composeApp/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./composeApp/src/jvmMain/kotlin)
-    folder is the appropriate location.
+FINI is a beautifully simple to-do list app designed to bring calm and clarity to your day. By focusing on the essentials, FINI helps you manage your tasks without the clutter, reducing stress and boosting your productivity. Stay organized and achieve your goals, one task at a time.
 
-* [/iosApp](./iosApp/iosApp) contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## ✨ Features
 
-### Build and Run Android Application
+- **Effortless Task Management**: Quickly add new tasks by typing and pressing "Done". No extra buttons, no complicated forms.
+- **Simple & Clean UI**: A minimalist interface that keeps you focused on what truly matters.
+- **Cross-Platform**: Seamlessly manage your to-do list on both Android and iOS devices.
+- **Stay Organized**: Keep track of your completed tasks with simple checkboxes.
 
-To build and run the development version of the Android app, use the run configuration from the run widget
-in your IDE’s toolbar or build it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:assembleDebug
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:assembleDebug
-  ```
+## 🧘 Why You'll Love FINI
 
-### Build and Run iOS Application
+In a world of distractions, FINI offers a peaceful space to organize your thoughts. By providing a straightforward way to manage your daily tasks, it helps clear your mental clutter, reduce anxiety, and gives you a sense of accomplishment as you check off each item. Embrace simplicity and find your focus with FINI.
 
-To build and run the development version of the iOS app, use the run configuration from the run widget
-in your IDE’s toolbar or open the [/iosApp](./iosApp) directory in Xcode and run it from there.
+## 🚀 Installation
+
+### Android
+
+1.  Open the project in Android Studio.
+2.  Select the `composeApp` run configuration.
+3.  Choose your target device (emulator or physical).
+4.  Click the 'Run' button.
+
+Alternatively, you can build from the command line:
+```shell
+./gradlew :composeApp:assembleDebug
+```
+
+### iOS
+
+1.  Open the `/iosApp` directory in Xcode.
+2.  Select your target device (simulator or physical).
+3.  Click the 'Run' button to build and install the app.
 
 ---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+Made with ❤️ using Kotlin Multiplatform.
